@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Meta -->
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- SITE TITLE -->
+<title>youstart</title>
+<!-- Favicon Icon -->
+<link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
+<!-- Animation CSS -->
+<link rel="stylesheet" href="css/animate.css">
+<!-- Latest Bootstrap min CSS -->
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<!-- Google Font -->
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+<!-- Font Awesome CSS -->
+<link rel="stylesheet" href="css/font-awesome.min.css">
+<!-- ionicons CSS -->
+<link rel="stylesheet" href="css/ionicons.min.css">
+<!-- cryptocoins CSS -->
+<link rel="stylesheet" href="css/cryptocoins.css">
+<!--- owl carousel CSS-->
+<link rel="stylesheet" href="css/owl.carousel.min.css">
+<link rel="stylesheet" href="css/owl.theme.default.min.css">
+<!-- Magnific Popup CSS -->
+<link rel="stylesheet" href="css/magnific-popup.css">
+<link rel="stylesheet" href="css/spop.min.css">
+<!-- Style CSS -->
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/responsive.css">
+<!-- Color CSS -->
+<link id="layoutstyle" rel="stylesheet" href="css/theme.css">
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-106310707-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+ gtag('config', 'UA-106310707-1', { 'anonymize_ip': true });
+</script>
+
+<!-- Start of StatCounter Code -->
+<script>
+	<!--
+	var sc_project=11921154;
+	var sc_security="6c07f98b";
+		var scJsHost = (("https:" == document.location.protocol) ?
+		"https://secure." : "http://www.");
+			//-->
+			
+document.write("<sc"+"ript src='" +scJsHost +"statcounter.com/counter/counter.js'></"+"script>");
+</script>
+<noscript><div class="statcounter"><a title="web analytics" href="https://statcounter.com/"><img class="statcounter" src="https://c.statcounter.com/11921154/0/6c07f98b/0/" alt="web analytics"></a></div></noscript>
+<!-- End of StatCounter Code -->
+
+</head>
+
+<body class="v_dark" data-spy="scroll" data-offset="110">
+
+
+<!-- START LOADER -->
+<div id="loader-wrapper">
+    <div id="loading-center-absolute">
+        <div class="object" id="object_four"></div>
+        <div class="object" id="object_three"></div>
+        <div class="object" id="object_two"></div>
+        <div class="object" id="object_one"></div>
+    </div>
+    <div class="loader-section section-left"></div>
+    <div class="loader-section section-right"></div>
+
+</div>
+<!-- END LOADER --> 
+
+<!-- START HEADER -->
+<header class="header_wrap fixed-top">
+	<div class="container-fluid">
+		<nav class="navbar navbar-expand-lg"> 
+			<a class="navbar-brand page-scroll animation" href="#home_section" data-animation="fadeInDown" data-animation-delay="1s"> 
+            	<img class="logo_light" src="images/logo.png" alt="logo"> 
+                <img class="logo_dark" src="images/logo_dark.png" alt="logo"> 
+            </a>
+            <button class="navbar-toggler animation" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" data-animation="fadeInDown" data-animation-delay="1.1s"> 
+                <span class="ion-android-menu"></span> 
+            </button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav m-auto">
+                    <li class="dropdown animation" data-animation="fadeInDown" data-animation-delay="1.1s">
+						<a data-toggle="dropdown" class="nav-link dropdown-toggle active" href="#">Home</a>
+							
+                    <li class="animation" data-animation="fadeInDown" data-animation-delay="1.2s"><a class="nav-link page-scroll nav_item" href="#service">Essence</a></li>
+                    <li class="animation" data-animation="fadeInDown" data-animation-delay="1.3s"><a class="nav-link page-scroll nav_item" href="#about">Tasks</a></li>
+                    <li class="animation" data-animation="fadeInDown" data-animation-delay="1.4s"><a class="nav-link page-scroll nav_item" href="#token">Token</a></li>
+                    <li class="animation" data-animation="fadeInDown" data-animation-delay="1.5s"><a class="nav-link page-scroll nav_item" href="#roadmap">Road Map</a></li>
+                    
+                    
+                    <li class="animation" data-animation="fadeInDown" data-animation-delay="1.8s"><a class="nav-link page-scroll nav_item" href="#contact">Contact</a></li>
+                </ul>
+                <ul class="navbar-nav nav_btn align-items-center">
+                    <li class="animation" data-animation="fadeInDown" data-animation-delay="1.9s">
+                        <div class="lng_dropdown">
+                          <select onchange="location = this.value;" name="countries" id="lng_select">
+                            <option value="ru.html" data-image="images/eng.png" data-title="Englisha">RUSSIAN</option>
+                            <option value="index.html" data-image="images/eng.png" data-title="France">ENGLISH</option>
+                            
+                            
+                          </select>
+                        </div>
+                    </li>
+                    
+                </ul>
+			</div>
+		</nav>
+	</div>
+</header>
+<!-- END HEADER --> 
+
+<!-- START SECTION BANNER -->
+
+<section id="home_section" class="section_banner bg_black_dark" data-z-index="1" data-parallax="scroll" data-image-src="assets/images/banner_bg2.png">
+    
+    <canvas id="banner_canvas" class="transparent_effect fixed"></canvas>
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6 col-md-12 col-sm-12 order-lg-first">
+                <div class="banner_text_s2 text_md_center">
+                    <h1 class="animation text-white" data-animation="fadeInUp" data-animation-delay="1.1s"><strong>Платформа - Твой Старт</strong></h1>
+                    
+                    <div class="transparent_bg tk_counter_inner m-lg-0 banner_token text-center px-0 animation" data-animation="fadeIn" data-animation-delay="1.4s">
+                       
+                    </div>
+                    <div class="btn_group pt-2 pb-3 animation" data-animation="fadeInUp" data-animation-delay="1.4s"> 
+                        <a href="#whitepaper" class="btn btn-default btn-radius nav-link content-popupa">Whitepaper <i class="ion-ios-arrow-thin-right"></i></a> 
+                        <a href="#" class="btn btn-border btn-radius">Buy Token Now! <i class="ion-ios-arrow-thin-right"></i></a> 
+                    </div>
+                    
+                    <div id="whitepaper" class="team_pop mfp-hide">
+                        <div class="row m-0">
+                            <div class="col-md-7">
+                                <div class="pt-3 pb-3">
+                                    <div class="title_dark title_border"> 
+                                        <h4>Download Whitepaper</h4>
+                                        <p>A purely peer-to-peer version of electronic cash would allow online payments to be sent directly from one party to another without going through a financial institution.Digital signatures provide part of the solution, but the main benefits are lost if a trusted third party is still required to prevent double-spending.</p>
+                                        <p>The network timestamps transactions by hashing them into an ongoing chain of hash-based proof-of-work, forming a record that cannot be changed without redoing the proof-of-work.</p>
+										<a href="#" class="btn btn-default btn-radius">Download Now <i class="ion-ios-arrow-thin-right"></i></a>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-5"> 
+                                <img class="pt-3 pb-3" src="images/whitepaper.png" alt="whitepaper"> 
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12 order-first">
+                <div class="banner_image_right res_md_mb_50 res_xs_mb_30 animation" data-animation-delay="1.5s" data-animation="fadeInRight"> 
+                    <img alt="banner_vector2" src="images/banner_img2.png"> 
+                </div>
+          	</div>
+        </div>
+        </div>
+    
+    
+    
+</section>
+
+
+
+
+
+
+
+<!-- END SECTION BANNER --> 
+
+<!-- START SECTION SERVICES -->
+<section id="service" class="small_pb small_pt">
+	<div class="container">
+		<div class="row align-items-center">
+			<div class="col-lg-8 offset-lg-2 col-md-12 col-sm-12">
+				<div class="title_default_light title_border text-center">
+                  
+                  <p class="animation" data-animation="fadeInUp" data-animation-delay="0.4s">
+Мы ищем и раскрываем молодые таланты!
+
+<br>
+Давай раскроем твой талант Вместе!</p>
+
+<h4 class="animation" data-animation="fadeInUp" data-animation-delay="0.2s">Essence
+</h4>
+        		</div>
+			</div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12">
+            	<div class="box_wrap text-center animation" data-animation="fadeInUp" data-animation-delay="0.6s">
+                	<img src="images/service_icon1.png" alt="service_icon1">
+                    <h4>Стартап инкубатор</h4>
+                    <p></p>
+                </div>
+            </div>
+            
+            <div class="col-lg-4 col-md-6 col-sm-12">
+            	<div class="box_wrap text-center animation" data-animation="fadeInUp" data-animation-delay="1s">
+                	<img src="images/service_icon3.png" alt="service_icon3">
+                    <h4>аунчпад для запуска Стартапов</h4>
+                    
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+            	<div class="box_wrap text-center animation" data-animation="fadeInUp" data-animation-delay="1s">
+                	<img src="images/service_icon4.png" alt="service_icon4">
+                    <h4>Маркетплейс цифровых товаров</h4>
+                    
+                </div>
+            </div>
+            <div class="col-lg-4  col-md-6 col-sm-12">
+            	<div class="box_wrap text-center animation" data-animation="fadeInUp" data-animation-delay="1s">
+                	<img src="images/service_icon5.png" alt="service_icon5">
+                    <h4>NFT Marketplace</h4>
+                    
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+            	<div class="box_wrap text-center animation" data-animation="fadeInUp" data-animation-delay="1s">
+                	<img src="images/service_icon6.png" alt="service_icon6">
+                    <h4>Крипто Академию</h4>
+                    
+                </div>
+            </div>
+    	</div>
+  	</div>
+</section>
+<!-- END SECTION SERVICES --> 
+
+<!-- START SECTION ABOUT US -->
+<section id="about" class="small_pt">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6 col-md-12 col-sm-12">
+            	<div class="text_md_center">
+                	<img class="animation" data-animation="zoomIn" data-animation-delay="0.2s" src="images/about_img2.png" alt="aboutimg2"> 
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12 res_md_mt_30 res_sm_mt_20">
+                <div class="title_default_light title_border">
+                  <h4 class="animation" data-animation="fadeInUp" data-animation-delay="0.2s">Задачи</h4>
+                  <p class="animation" data-animation="fadeInUp" data-animation-delay="0.4s">
+
+🔵Повышение финансовой грамотности населения;
+<br>
+🔵Предоставление людям по всему миру знаний и инструментов для получения дохода на рынке криптовалют;
+<br>
+🔵Помощь молодым стартапам
+с запуском собственных криптопроектов;
+<br>
+🔵Возможность для художников монетизировать свое искусство через NFT;
+
+🔵Возможность инвестировать в проекты на ранней стадии. </p>
+                  <br><br>
+                  
+                  <h4 class="animation" data-animation="fadeInUp" data-animation-delay="0.2s">Your Start токен - YOST</h4>
+                  
+                           <p class="animation" data-animation="fadeInUp" data-animation-delay="0.4s">
+
+Применение:
+<br>
+- Стейкинг;
+<br>
+- Фарминг;
+<br>
+- Покупка обучающих продуктов в Крипто Академии;
+<br>
+- Возможность участия в Лаунчпад новых IDO;
+<br>
+- AirDrop от новых проектов на Launchpad;
+<br>
+- Оплата комиссии за выпуск и транзакции NFT на нашем Marketplace. 
+</p>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</section>
+<!-- END SECTION ABOUT US --> 
+
+<!-- START SECTION TOKEN SALE -->
+<section id="token" class="section_token token_sale bg_light_dark" data-z-index="1" data-parallax="scroll" data-image-src="assets/images/token_bg.png">
+	<div class="container">
+        <div class="row">
+			<div class="col-lg-6 offset-lg-3 col-md-12 col-sm-12">
+                <div class="title_default_light title_border text-center">
+                    <h4 class="animation" data-animation="fadeInUp" data-animation-delay="0.2s">Общее предложение:<br>
+10 000 000 YOST</h4>
+                    <p class="animation" data-animation="fadeInUp" data-animation-delay="0.4s">
+ 
+
+Your Start токен
+<br>
+имеет дефляционную модель.
+25% дохода от продажи продуктов будет использовано для выкупа и сжигания YOST,
+пока общее предложение не достигнет 1 000 000 YOST.
+<br>
+Стоимость токена на старте $1
+<br>
+Стоимость токена будет увеличиваться планомерно, пропорционально капитализации и обращению токенов на рынке.
+<br>
+Ценовая политика будет регулироваться за счет 
+органического роста, собственного обеспечения ликвидности и предложения,
+и будет направлена на устранение пампов и дампов, во избежание потери денег инвесторами.
+Цена возможной продажи токена инвесторами должна быть равна или выше цены покупки.
+При достижении определенного уровня цена должна не снижаться, а только расти.
+<br>
+Наша цель на 2030 год
+поднять цену токена до $1000
+<br>
+Для достижения цены 1 YOST - 1000$
+Нужно достичь
+капитализации 1 миллиард $
+и сократить общее предложение YOST 
+до 1 миллиона токенов,
+за счет сжигания.</p>
+                </div>
+			</div>
+        </div>
+        <div class="row align-items-center">
+        	<div class="col-lg-3">
+            	
+                
+                
+            </div>
+            <div class="col-lg-6">
+            	<div class="token_sale res_md_mb_40 res_md_mt_40 res_sm_mb_30 res_sm_mt_30">
+                    
+                </div>  
+            </div>
+          
+        </div>
+    </div>
+</section>
+<!-- END SECTION TOKEN SALE --> 
+
+<!-- START SECTION TOKEN PROCEEDS & DISTRIBUTION -->
+<section>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-6 col-md-12 col-sm-12 res_md_mb_40">
+                <div class="title_default_light title_border text-center">
+                    <h4 class="animation" data-animation="fadeInUp" data-animation-delay="0.2s">Token Distribution</h4>
+                </div>
+                <div class="lg_pt_20 res_sm_pt_0 text-center animation" data-animation="fadeInRight" data-animation-delay="0.2s"> 
+                    <imga src="images/sale-proceeds3.png" alt="sale-proceeds3"> 
+                </div>
+                <div class="divider small_divider"></div>
+                <ul class="list_none list_chart text-center">
+                	<li>
+                    	<span class="chart_bx color1"></span>
+                    	<span>Пред продажа: 10%</span>
+                    </li>
+                    <li>
+                    	<span class="chart_bx color2"></span>
+                    	<span>Аирдроп 30%</span>
+                    </li>
+                    <li>
+                    	<span class="chart_bx color3"></span>
+                    	<span>IDO 10%</span>
+                    </li>
+                    <li>
+                    	<span class="chart_bx color4"></span>
+                    	<span>Публичная продажа 20%</span>
+                    </li>
+                    <li>
+                    	<span class="chart_bx color5"></span>
+                    	<span>Стейкинг 5%</span>
+                    </li>
+                      <li>
+                    	<span class="chart_bx color5"></span>
+                    	<span>Команда 15%</span>
+                    </li>
+                    <li>
+                    	<span class="chart_bx color4"></span>
+                    	<span>Менторы 10%</span>
+                    </li>
+                </ul>
+			</div>
+            
+        </div>    
+  </div>
+</section>
+<!-- END SECTION TOKEN PROCEEDS & DISTRIBUTION -->
+
+<!-- START SECTION TIMELINE -->
+<section id="roadmap" class="small_pb">
+    <div class="container">
+    <div class="row text-center">
+      <div class="col-lg-8 col-md-12 offset-lg-2">
+        <div class="title_default_light title_border text-center">
+          <h4 class="animation" data-animation="fadeInUp" data-animation-delay="0.2s">Roadmap</h4>
+          <p class="animation" data-animation="fadeInUp" data-animation-delay="0.4s">let's discover your talent together.</p>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="container">
+  	<div class="row">
+    	<div class="col-md-12">
+            <div class="timeline owl-carousel small_space">
+              <div class="item">
+                <div class="timeline_box complete">
+                  <div class="timeline_inner">
+                    <div class="timeline_circle"></div>
+                    <h6 class="animation" data-animation="fadeInUp" data-animation-delay="0.3s">2-3 квартал 2022</h6>
+                    <p class="animation" data-animation="fadeInUp" data-animation-delay="0.4s">
+    <ul style="text-align: left; color: white;">                				
+
+- Разработка Идеи и Концепции;<br>
+- Упаковка проекта;<br>
+- Пред продажа YOST token;<br>
+- Создание Крипто бота;<br>
+- Создание сообщества;<br>
+- IDO;<br>
+- Запуск первых обучающих продуктов;</
+</p>
+
+     </u>            </div>
+                </div>
+              </div>
+              
+              <div class="item">
+                <div class="timeline_box">
+                  <div class="timeline_inner">
+                    <div class="timeline_circle"></div>
+                    <h6 class="animation" data-animation="fadeInUp" data-animation-delay="0.3s">4 квартал 2022</h6>
+                    <p class="animation" data-animation="fadeInUp" data-animation-delay="0.4s">
+                    				<ul style="text-align: left; color: white;">   
+- Привлечение новых Крипто экспертов
+и запуск новых обучающих продуктов;<br>
+- Старт разработки Launchpad
+и NFT Marketplace;<br>
+- Отбор проектов для запуска;
+</ul>
+ </p>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="timeline_box">
+                  <div class="timeline_inner">
+                    <div class="timeline_circle"></div>
+                    <h6 class="animation" data-animation="fadeInUp" data-animation-delay="0.3s">1 квартал 2023:</h6>
+                    <p class="animation" data-animation="fadeInUp" data-animation-delay="0.4s">
+- Запуск Launchpad;</p>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="timeline_box">
+                  <div class="roadmap_inner">
+                    <div class="timeline_circle"></div>
+                    <h6 class="animation" data-animation="fadeInUp" data-animation-delay="0.3s">- 2 квартал 2023:</h6>
+                    <p class="animation" data-animation="fadeInUp" data-animation-delay="0.4s">
+- Запуск NFT Marketplace;</p>
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+    	</div>
+    </div>
+  </div>
+</section>
+<!-- END SECTION TIMELINE --> 
+
+<!-- START SECTION TEAM -->
+            
+<!-- END SECTION TEAM --> 
+
+<!-- START SECTION FAQ -->
+ 
+<!-- END SECTION FAQ -->
+
+<!-- START SECTION BLOG -->
+
+<!-- END SECTION BLOG -->
+
+<!-- START CLIENTS SECTION -->
+
+<!-- END CLIENTS SECTION -->
+
+<!-- START SECTION CONTACT -->
+<section id="contact" class="contact_section small_pt">
+	<div class="container">
+    	<div class="row">
+        	<div class="col-lg-8 col-md-12 offset-lg-2">
+              <div class="title_default_light title_border text-center">
+                <h4 class="animation" data-animation="fadeInUp" data-animation-delay="0.2s">Get In Touch!</h4>
+              </div>
+            </div>
+        </div>
+        <div class="row align-items-center small_space">
+            <div class="col-lg-4 col-md-6 offset-lg-2">
+            	<div class="bg_light_dark  contact_box_s2 animation" data-animation="fadeInLeft" data-animation-delay="0.1s">
+                    <div class="contact_title">
+                        <h5 class="animation" data-animation="fadeInUp" data-animation-delay="0.2s">Contact With Us</h5>
+                        
+                    </div>
+           
+                  <div class="contct_follow pt-2 pt-md-4">
+                      <span class="text-uppercase animation" data-animation="fadeInUp" data-animation-delay="0.2s">Follow Us</span>
+                      <ul class="list_none social_icon">
+                        <li class="animation" data-animation="fadeInUp" data-animation-delay="0.4s"><a href="#"><i class=" fa fa-facebook"></i></a></li>
+                        <li class="animation" data-animation="fadeInUp" data-animation-delay="0.5s"><a href="#"><i class=" fa fa-twitter"></i></a></li>
+                        
+                        <li class="animation" data-animation="fadeInUp" data-animation-delay="0.7s"><a href="#"><i class=" fa fa-pinterest"></i></a></li>
+                        
+                     </ul>
+                 </div>
+              	</div>
+            </div>
+            <div class="col-lg-5 col-md-6">
+            	<div class="pt-4 pt-md-0 animation" data-animation="fadeInRight" data-animation-delay="0.1s">
+        
+                </div>
+        	</div>
+        </div>
+	</div>
+</section>
+<!-- END SECTION CONTACT --> 
+
+<!-- START FOOTER SECTION -->
+<footer>
+
+    <div class="bottom_footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <p class="copyright">Copyright &copy; 2022 Youstart All Rights Reserved.</p>
+        </div>
+        <div class="col-md-6">
+          <ul class="list_none footer_menu">
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms & Conditions</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    </div>
+</footer>
+<!-- END FOOTER SECTION --> 
+
+<a href="#" class="scrollup btn-default"><i class="ion-ios-arrow-up"></i></a> 
+
+<!-- Latest jQuery --> 
+<script src="js/jquery-1.12.4.min.js"></script> 
+<!-- Latest compiled and minified Bootstrap --> 
+<script src="js/bootstrap.min.js"></script> 
+<!-- owl-carousel min js  --> 
+<script src="js/owl.carousel.min.js"></script> 
+<!-- magnific-popup min js  --> 
+<script src="js/magnific-popup.min.js"></script> 
+<!-- waypoints min js  --> 
+<script src="js/waypoints.min.js"></script> 
+<!-- parallax js  --> 
+<script src="js/parallax.js"></script> 
+<!-- countdown js  --> 
+<script src="js/jquery.countdown.min.js"></script> 
+<!-- particles min js  --> 
+<script src="js/particles.min.js"></script> 
+<!-- scripts js --> 
+<script src="js/jquery.dd.min.js"></script> 
+<!-- jquery.counterup.min js --> 
+<script src="js/jquery.counterup.min.js"></script> 
+<!-- modern_canvas js --> 
+<script src="js/modern_canvas.js"></script> 
+<script src="js/spop.min.js"></script> 
+<script src="js/notification.js"></script> 
+<!-- scripts js --> 
+<script src="js/scripts.js"></script>
+</body>
+</html>
